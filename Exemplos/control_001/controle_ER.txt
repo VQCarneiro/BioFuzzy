@@ -1,0 +1,43 @@
+Resultado FINAL   
+-----------------------------------------------------------------------------------------------------   
+dia: 4 mes: 10 ano: 2017
+23 horas 14 minutos 1.942300e+001 segundo 
+-----------------------------------------------------------------------------------------------------   
+Controlador Fuzzy: Eberhart e Russell (1966) 
+Parâmetros Iniciais 
+Sistema de Inferência Fuzzy (FIS): Mamdani
+Ponto de Corte para Média:  50
+Ponto de Corte para R²   :  50
+Variável Analisada:  1
+Arquivo de dados:   C:\BioFuzzy\Exemplos\control_001\dados.txt
+ 
+-----------------------------------------------------------------------------------------------------   
+Classificação dos genótipos quanto a adaptabilidade e estabilidade segundo Eberhart e Russell (1966) 
+ 
+    'Genótipos'    'Comportamento'           'Pertinência'
+    [        1]    'Pouco Adaptado'          [     0.7751]
+    [        2]    'Pouco Adaptado'          [     0.6622]
+    [        3]    'Pouco Adaptado'          [     0.5219]
+    [        4]    'Adaptabilidade Geral'    [     0.5750]
+    [        5]    'Pouco Adaptado'          [     0.5275]
+    [        6]    'Pouco Adaptado'          [     0.6620]
+    [        7]    'Pouco Adaptado'          [     0.8000]
+    [        8]    'Pouco Adaptado'          [     0.6554]
+
+ 
+-----------------------------------------------------------------------------------------------------   
+Pertinências dos genótipos nas classes de adaptatilidade e estabilidade segundo Eberhart e Russell (1966) 
+ 
+    'Genótipos'    'Média Geral'    'B1'         'R²'         'A.G.'       'P.A.'       'A.A.F'      'A.A.D'  
+    [        1]    [    33.5326]    [ 0.9684]    [71.1724]    [22.4887]    [77.5113]    [      0]    [ 0.0055]
+    [        2]    [    41.0981]    [ 2.2005]    [69.5110]    [33.7810]    [66.2190]    [ 8.0072]    [      0]
+    [        3]    [    61.9538]    [ 2.3834]    [48.8908]    [47.8062]    [52.1938]    [10.6325]    [      0]
+    [        4]    [    66.2046]    [ 3.7658]    [94.2425]    [57.5022]    [22.8426]    [42.4978]    [      0]
+    [        5]    [    48.6042]    [ 3.8784]    [55.3981]    [47.2473]    [52.7527]    [46.0303]    [      0]
+    [        6]    [    41.1120]    [-2.8085]    [68.4991]    [26.6808]    [66.1960]    [      0]    [33.8040]
+    [        7]    [    30.5147]    [-0.8972]    [ 1.2831]    [ 0.0329]    [80.0044]    [      0]    [ 0.0329]
+    [        8]    [    76.9800]    [-1.4905]    [ 0.3302]    [ 0.0022]    [65.5403]    [      0]    [ 0.0022]
+
+A.G.: Adaptabilidade Geral; P.A.: Pouco Adaptado; A.A.F.: Adaptabilidade a ambientes Favoráveis;
+A.A.D.: Adaptabilidade a ambientes Desfavoráveis
+-----------------------------------------------------------------------------------------------------   

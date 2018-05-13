@@ -1,0 +1,96 @@
+-------------------------------------------------------------------------
+-----------------------------BIOFUZZY------------------------------------
+-------------------------------------------------------------------------
+ 
+Desenvolvedor: Vinícius Quintão Carneiro (vqcarneiro@gmail.com)
+ 
+-----------------------------INFORMAÇÕES---------------------------------
+Controlador fuzzy baseado na metodologia de Lin e Binns (1988) modificada por Carneiro (1998)
+ 
+* ENTRADAS: 
+Variável 1
+1. Pi em ambientes favoráveis (Pif)
+     1.1 Pif BAIXO - zmf(20, 100)
+     1.2 Pif ALTO - smf(20, 100)
+2. Pi em ambientes desfavoráveis (Pid)
+     2.1 Pid BAIXO - zmf(20, 100)
+     2.2 Pid ALTO - smf(20, 100)
+ 
+Variável 2
+1. Pi em ambientes favoráveis (Pif)
+     1.1 Pif BAIXO - zmf(20, 100)
+     1.2 Pif ALTO - smf(20, 100)
+2. Pi em ambientes desfavoráveis (Pid)
+     2.1 Pid BAIXO - zmf(20, 100)
+     2.2 Pid ALTO - smf(20, 100)
+ 
+* SAÍDA: Comportamentos
+1. Pouco Adaptado
+2. Ampla Adaptabilidade
+3. Adaptabilidade a Ambientes Favoráveis
+4. Adaptabilidade a Ambientes Desfavoráveis
+ 
+ 
+* SISTEMA DE INFERÊNCIA: Sugeno
+* MÉTODO DA INTERSEÇÃO (E): min
+ 
+---------------------REFERÊNCIAS BIBLIOGRÁFICAS--------------------------
+1. Carneiro, P.C.S. (1998). Novas metodologias de análise da adaptabilidade e estabilidade de comportamento. Universidade Federal de Viçosa.
+ 
+2. Carneiro, V.Q. (2015). Redes neurais e lógica fuzzy aplicadas no melhoramento de plantas
+ 
+3. Lin, C.S.; Binns, M.R. A. (1988) Superiority measure of cultivar performance for cultivar x location data. Canadian Journal of Plant Science, v.68, p.193-198.
+ 
+---------------------------TRILHA DE DADOS-------------------------------
+C:\BioFuzzy\Exemplos\piMultivariado\
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+------------------------------RESULTADOS---------------------------------
+-------------------------------------------------------------------------
+ 
+Tabela 1. Resumo dos resultados completos do controlador fuzzy baseado em Lin e Binns (1988) modificado por Carneiro (1998).
+______________________________________________________________________________________________________________________________
+    'Genótipos'    'Comportamento'           'Pertinencia'
+    [     1.00]    'Desfavoravel'            [       0.73]
+    [     2.00]    'Ampla Adaptabilidade'    [       0.91]
+    [     3.00]    'Favoravel'               [       0.81]
+    [     4.00]    'Ampla Adaptabilidade'    [       0.87]
+    [     5.00]    'Ampla Adaptabilidade'    [       0.57]
+    [     6.00]    'Ampla Adaptabilidade'    [       0.52]
+    [     7.00]    'Ampla Adaptabilidade'    [       0.87]
+    [     8.00]    'Ampla Adaptabilidade'    [       0.91]
+    [     9.00]    'Ampla Adaptabilidade'    [       0.79]
+    [    10.00]    'Pouco Adaptado'          [       0.54]
+    [    11.00]    'Ampla Adaptabilidade'    [       0.70]
+    [    12.00]    'Ampla Adaptabilidade'    [       0.58]
+    [    13.00]    'Ampla Adaptabilidade'    [       0.91]
+    [    14.00]    'Pouco Adaptado'          [       0.78]
+    [    15.00]    'Desfavoravel'            [       0.66]
+    [    16.00]    'Ampla Adaptabilidade'    [       0.83]
+
+______________________________________________________________________________________________________________________________
+Tabela 1. Resultados completos do controlador fuzzy multivariado baseado em Lin e Binns (1988) modificado por Carneiro (1998).
+______________________________________________________________________________________________________________________________
+    'Genótipos'    'pidVar1'    'pifVar1'    'pidVar2'    'pifVar2'    'A.G.'    'P.A.'    'A.A.F.'    'A.A.D'
+    [     1.00]    [  43.18]    [  70.44]    [  43.18]    [  70.44]    [0.27]    [0.17]    [  0.17]    [ 0.73]
+    [     2.00]    [  36.51]    [  30.88]    [  36.51]    [  30.88]    [0.91]    [0.04]    [  0.09]    [ 0.04]
+    [     3.00]    [  87.31]    [  44.47]    [  87.31]    [  44.47]    [0.05]    [0.19]    [  0.81]    [ 0.05]
+    [     4.00]    [  40.45]    [  38.50]    [  40.45]    [  38.50]    [0.87]    [0.11]    [  0.13]    [ 0.11]
+    [     5.00]    [  56.97]    [  41.41]    [  56.97]    [  41.41]    [0.57]    [0.14]    [  0.43]    [ 0.14]
+    [     6.00]    [  59.29]    [  33.03]    [  59.29]    [  33.03]    [0.52]    [0.05]    [  0.48]    [ 0.05]
+    [     7.00]    [  39.55]    [  40.52]    [  39.55]    [  40.52]    [0.87]    [0.12]    [  0.12]    [ 0.13]
+    [     8.00]    [  35.80]    [  37.17]    [  35.80]    [  37.17]    [0.91]    [0.08]    [  0.08]    [ 0.09]
+    [     9.00]    [  43.71]    [  46.18]    [  43.71]    [  46.18]    [0.79]    [0.18]    [  0.18]    [ 0.21]
+    [    10.00]    [  61.44]    [  88.47]    [  61.44]    [  88.47]    [0.04]    [0.54]    [  0.04]    [ 0.46]
+    [    11.00]    [  47.97]    [  51.13]    [  47.97]    [  51.13]    [0.70]    [0.24]    [  0.24]    [ 0.30]
+    [    12.00]    [  39.47]    [  56.75]    [  39.47]    [  56.75]    [0.58]    [0.12]    [  0.12]    [ 0.42]
+    [    13.00]    [  37.23]    [  37.29]    [  37.23]    [  37.29]    [0.91]    [0.09]    [  0.09]    [ 0.09]
+    [    14.00]    [  87.71]    [  73.66]    [  87.71]    [  73.66]    [0.05]    [0.78]    [  0.22]    [ 0.05]
+    [    15.00]    [  41.13]    [  67.11]    [  41.13]    [  67.11]    [0.34]    [0.14]    [  0.14]    [ 0.66]
+    [    16.00]    [  42.28]    [  43.00]    [  42.28]    [  43.00]    [0.83]    [0.16]    [  0.16]    [ 0.17]
+
+______________________________________________________________________________________________________________________________
+pidVar1: Pi desfavorável para variável 1;pifVar1: Pi favorável para variável 1;pidVar2: Pi desfavorável para variável 2
+pifVar2: Pi favorável para variável 2
+A.G.: Adaptabilidade Geral; P.A.: Pouco Adaptado; A.A.F.: Adaptabilidade a ambientes Favoráveis;
+A.A.D.: Adaptabilidade a ambientes Desfavoráveis

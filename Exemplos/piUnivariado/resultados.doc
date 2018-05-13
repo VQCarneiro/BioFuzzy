@@ -1,0 +1,183 @@
+-------------------------------------------------------------------------
+-----------------------------BIOFUZZY------------------------------------
+-------------------------------------------------------------------------
+ 
+Desenvolvedor: Vinícius Quintão Carneiro (vqcarneiro@gmail.com)
+ 
+-----------------------------INFORMAÇÕES---------------------------------
+Controlador fuzzy baseado na metodologia de Lin e Binns (1988) modificada por Carneiro (1998)
+ 
+* ENTRADAS: 
+1. Pi em ambientes favoráveis (Pif)
+     1.1 Pif BAIXO - zmf(0, 100)
+     1.2 Pif ALTO - smf(0, 100)
+2. Pi em ambientes desfavoráveis (Pid)
+     2.1 Pif BAIXO - zmf(0, 100)
+     2.2 Pif ALTO - smf(0, 100)
+ 
+* SAÍDA: Comportamentos
+1. Pouco Adaptado
+2. Ampla Adaptabilidade
+3. Adaptabilidade a Ambientes Favoráveis
+4. Adaptabilidade a Ambientes Desfavoráveis
+ 
+* REGRAS: 
+1. Se Pif é BAIXO e Pid é BAIXO Comportamento é de Ampla Adaptabilidade
+2. Se Pif é ALTO e Pid é ALTO Comportamento é POUCO ADAPTADO
+3. Se Pif é BAIXO e Pid é ALTO Comportamento é de ADAPTABILIDADE A AMBIENTES FAVORÁVEIS
+4. Se Pif é ALTO e Pid é BAIXO Comportamento é de ADAPTABILIDADE A AMBIENTES DESFAVORÁVEIS
+ 
+* SISTEMA DE INFERÊNCIA: Sugeno
+* MÉTODO DA INTERSEÇÃO (E): min
+ 
+---------------------REFERÊNCIAS BIBLIOGRÁFICAS--------------------------
+1. Carneiro, P.C.S. (1998). Novas metodologias de análise da adaptabilidade e estabilidade de comportamento. Universidade Federal de Viçosa.
+ 
+2. Carneiro, V.Q. (2015). Redes neurais e lógica fuzzy aplicadas no melhoramento de plantas
+ 
+3. Lin, C.S.; Binns, M.R. A. (1988) Superiority measure of cultivar performance for cultivar x location data. Canadian Journal of Plant Science, v.68, p.193-198.
+ 
+---------------------------TRILHA DE DADOS-------------------------------
+C:\BioFuzzy\Exemplos\piUnivariado\
+-------------------------------------------------------------------------
+----------------------------ARQUIVOS GERADOS-----------------------------
+Resultado (Word): resultados.doc
+Resumo (Excel): dado_PiFuzzyRes.xlsx
+Completo (Excel): dado_PiFuzzyComp.xlsx
+Grafico Resultado (PNG): comportamentos.png
+Grafico Entrada Pif (PNG): Pif.png
+Grafico Entrada Pid (PNG): Pid.png
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+------------------------------RESULTADOS---------------------------------
+-------------------------------------------------------------------------
+ 
+Tabela 1. Valores de Pi conforme metodologia de Lin e Binns (1988) modificado por Carneiro (1998).
+ 
+_____________________________________________________________________
+    'Genótipos'    'Pi'          'Pif'          'Pid'     
+    [   569.37]    [64040.91]    [131787.94]    [12304.11]
+    [   640.06]    [16315.81]    [ 34714.15]    [ 1996.42]
+    [   527.00]    [66048.57]    [ 68078.28]    [80531.01]
+    [   559.30]    [27339.61]    [ 53425.79]    [ 8088.34]
+    [   799.10]    [41870.04]    [ 60572.24]    [33635.35]
+    [   684.84]    [34318.44]    [ 39993.23]    [37223.27]
+    [   718.23]    [28920.29]    [ 58368.39]    [ 6702.27]
+    [   651.97]    [22698.16]    [ 50167.59]    [  903.27]
+    [   550.88]    [37958.37]    [ 72274.10]    [13132.23]
+    [   492.07]    [96248.76]    [176024.21]    [40535.51]
+    [   510.72]    [46279.95]    [ 84414.30]    [19715.60]
+    [   565.18]    [46560.27]    [ 98191.13]    [ 6569.49]
+    [   683.65]    [23808.19]    [ 50448.28]    [ 3120.14]
+    [   591.72]    [98151.65]    [139685.95]    [81155.26]
+    [   556.24]    [58996.85]    [123607.92]    [ 9134.99]
+    [   390.36]    [33503.38]    [ 64460.85]    [10921.75]
+
+_____________________________________________________________________
+ 
+ 
+ 
+Tabela 2. Valores ordenados de Pi conforme metodologia de Lin e Binns (1988)
+ 
+_____________________________________________________________________
+    'Genótipos'    'Pi'      
+    [   640.06]    [16315.81]
+    [   651.97]    [22698.16]
+    [   683.65]    [23808.19]
+    [   559.30]    [27339.61]
+    [   718.23]    [28920.29]
+    [   390.36]    [33503.38]
+    [   684.84]    [34318.44]
+    [   550.88]    [37958.37]
+    [   799.10]    [41870.04]
+    [   510.72]    [46279.95]
+    [   565.18]    [46560.27]
+    [   556.24]    [58996.85]
+    [   569.37]    [64040.91]
+    [   527.00]    [66048.57]
+    [   492.07]    [96248.76]
+    [   591.72]    [98151.65]
+
+_____________________________________________________________________
+ 
+ 
+ 
+ 
+ 
+Tabela 3. Valores ordenados de Pi (originais e padronizados) em ambientes favoráveis conforme metodologia de Lin e Binns (1988) modificada por Carneiro (1998).
+ 
+_____________________________________________________________________
+    'Genótipos'    'Pif Original'    'Pif Padronizado'
+    [   640.06]    [    34714.15]    [          30.88]
+    [   684.84]    [    39993.23]    [          33.03]
+    [   651.97]    [    50167.59]    [          37.17]
+    [   683.65]    [    50448.28]    [          37.29]
+    [   559.30]    [    53425.79]    [          38.50]
+    [   718.23]    [    58368.39]    [          40.52]
+    [   799.10]    [    60572.24]    [          41.41]
+    [   390.36]    [    64460.85]    [          43.00]
+    [   527.00]    [    68078.28]    [          44.47]
+    [   550.88]    [    72274.10]    [          46.18]
+    [   510.72]    [    84414.30]    [          51.13]
+    [   565.18]    [    98191.13]    [          56.75]
+    [   556.24]    [   123607.92]    [          67.11]
+    [   569.37]    [   131787.94]    [          70.44]
+    [   591.72]    [   139685.95]    [          73.66]
+    [   492.07]    [   176024.21]    [          88.47]
+
+_____________________________________________________________________
+ 
+ 
+ 
+Tabela 4. Valores ordenados de Pi (originais e padronizados) em ambientes desfavoráveis conforme metodologia de Lin e Binns (1988) modificada por Carneiro (1998).
+ 
+_____________________________________________________________________
+    'Genótipos'    'Pid Original'    'Pid Padronizado'
+    [   651.97]    [      903.27]    [          35.80]
+    [   640.06]    [     1996.42]    [          36.51]
+    [   683.65]    [     3120.14]    [          37.23]
+    [   565.18]    [     6569.49]    [          39.47]
+    [   718.23]    [     6702.27]    [          39.55]
+    [   559.30]    [     8088.34]    [          40.45]
+    [   556.24]    [     9134.99]    [          41.13]
+    [   390.36]    [    10921.75]    [          42.28]
+    [   569.37]    [    12304.11]    [          43.18]
+    [   550.88]    [    13132.23]    [          43.71]
+    [   510.72]    [    19715.60]    [          47.97]
+    [   799.10]    [    33635.35]    [          56.97]
+    [   684.84]    [    37223.27]    [          59.29]
+    [   492.07]    [    40535.51]    [          61.44]
+    [   527.00]    [    80531.01]    [          87.31]
+    [   591.72]    [    81155.26]    [          87.71]
+
+_____________________________________________________________________
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Tabela 5. Resumo dos resultados completos do controlador fuzzy baseado em Lin e Binns (1988) modificado por Carneiro (1998).
+_____________________________________________________________________
+    'Genótipos'    'Comportamento'           'Pertinencia'
+    [     1.00]    'Desfavoravel'            [       0.63]
+    [     2.00]    'Ampla Adaptabilidade'    [       0.73]
+    [     3.00]    'Favoravel'               [       0.60]
+    [     4.00]    'Ampla Adaptabilidade'    [       0.67]
+    [     5.00]    'Favoravel'               [       0.63]
+    [     6.00]    'Favoravel'               [       0.67]
+    [     7.00]    'Ampla Adaptabilidade'    [       0.67]
+    [     8.00]    'Ampla Adaptabilidade'    [       0.72]
+    [     9.00]    'Ampla Adaptabilidade'    [       0.57]
+    [    10.00]    'Pouco Adaptado'          [       0.70]
+    [    11.00]    'Desfavoravel'            [       0.52]
+    [    12.00]    'Desfavoravel'            [       0.63]
+    [    13.00]    'Ampla Adaptabilidade'    [       0.72]
+    [    14.00]    'Pouco Adaptado'          [       0.86]
+    [    15.00]    'Desfavoravel'            [       0.66]
+    [    16.00]    'Ampla Adaptabilidade'    [       0.63]
+
+_____________________________________________________________________

@@ -1,0 +1,43 @@
+Resultado FINAL   
+-----------------------------------------------------------------------------------------------------   
+dia: 9 mes: 8 ano: 2017
+0 horas 11 minutos 5.284000e+001 segundo 
+-----------------------------------------------------------------------------------------------------   
+Controlador Híbrido: Eberhart e Russell (1966) e Lin e Binns (1988) modificado por Carneiro (1998) 
+Parâmetros Iniciais 
+Sistema de Inferência Fuzzy (FIS): Sugeno 
+Ponto de Corte para Pif:  50
+Ponto de Corte para Pid:  50
+Ponto de Corte para R²   :  50
+Variável Analisada:  1
+ 
+-----------------------------------------------------------------------------------------------------   
+Classificação dos genótipos quanto a adaptabilidade e estabilidade segundo controlador híbrido 
+ 
+    'Genótipos'    'Comportamento'                  'Pertinencia'
+    [     1.00]    'Pouco Adaptado'                 [       0.58]
+    [     2.00]    'Pouco Adaptado'                 [       0.57]
+    [     3.00]    'Pouco Adaptado'                 [       0.52]
+    [     4.00]    'Adaptabilidade Geral'           [       0.58]
+    [     5.00]    'Pouco Adaptado'                 [       0.54]
+    [     6.00]    'Adaptabilidade Desfavoravel'    [       0.68]
+    [     7.00]    'Pouco Adaptado'                 [       0.71]
+    [     8.00]    'Pouco Adaptado'                 [       0.61]
+
+ 
+-----------------------------------------------------------------------------------------------------   
+Pertinências dos genótipos nas classes de adaptatilidade e estabilidade segundo controlador híbrido 
+ 
+    'Genótipos'    'Pif'      'Pid'      'B1'       'R2'       'A.G.'    'P.A.'    'A.A.F'    'A.A.D'
+    [     1.00]    [54.28]    [66.82]    [ 0.97]    [71.17]    [0.22]    [0.58]    [    0]    [ 0.22]
+    [     2.00]    [46.49]    [63.54]    [ 2.20]    [69.51]    [0.27]    [0.57]    [ 0.08]    [ 0.27]
+    [     3.00]    [32.30]    [45.63]    [ 2.38]    [48.89]    [0.48]    [0.52]    [ 0.11]    [ 0.21]
+    [     4.00]    [31.06]    [36.47]    [ 3.77]    [94.24]    [0.58]    [0.27]    [ 0.42]    [ 0.19]
+    [     5.00]    [35.45]    [64.03]    [ 3.88]    [55.40]    [0.26]    [0.54]    [ 0.46]    [ 0.25]
+    [     6.00]    [72.17]    [40.31]    [-2.81]    [68.50]    [0.15]    [0.32]    [    0]    [ 0.68]
+    [     7.00]    [72.47]    [62.14]    [-0.90]    [ 1.28]    [0.00]    [0.71]    [    0]    [ 0.00]
+    [     8.00]    [55.79]    [21.05]    [-1.49]    [ 0.33]    [0.00]    [0.61]    [    0]    [ 0.00]
+
+A.G.: Adaptabilidade Geral; P.A.: Pouco Adaptado; A.A.F.: Adaptabilidade a ambientes Favoráveis;
+A.A.D.: Adaptabilidade a ambientes Desfavoráveis
+-----------------------------------------------------------------------------------------------------   

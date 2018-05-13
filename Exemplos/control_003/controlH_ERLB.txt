@@ -1,0 +1,49 @@
+Resultado FINAL   
+-----------------------------------------------------------------------------------------------------   
+dia: 8 mes: 8 ano: 2017
+20 horas 43 minutos 2.553500e+001 segundo 
+-----------------------------------------------------------------------------------------------------   
+Controlador: Cruz, Torres e Vencovsky (1989) 
+Parâmetros Iniciais 
+Sistema de Inferência Fuzzy (FIS): Sugeno 
+Ponto de Corte (Média Ambientes Favoráveis):  50
+Ponto de Corte (Média Ambientes Desfavoráveis):  50
+Ponto de Corte para R²:  50
+Variável Analisada:  1
+ 
+-----------------------------------------------------------------------------------------------------   
+Classificação dos genótipos quanto a adaptabilidade e estabilidade segundo controlador híbrido 
+ 
+    'Genótipos'    'Comportamento'     'Pertinencia'
+    [        1]    'Pouco Adaptado'    [     0.7000]
+    [        2]    'Pouco Adaptado'    [     0.6880]
+    [        3]    'Pouco Adaptado'    [     0.5487]
+    [        4]    'Pouco Adaptado'    [     0.5024]
+    [        5]    'Pouco Adaptado'    [     0.5125]
+    [        6]    'Favoravel'         [     0.5707]
+    [        7]    'Pouco Adaptado'    [     0.7104]
+    [        8]    'Pouco Adaptado'    [     0.6392]
+    [        9]    'Pouco Adaptado'    [     0.5921]
+    [       10]    'Pouco Adaptado'    [     0.6005]
+    [       11]    'Favoravel'         [     0.6594]
+
+ 
+-----------------------------------------------------------------------------------------------------   
+Pertinências dos genótipos nas classes de adaptatilidade e estabilidade segundo controlador híbrido 
+ 
+    'Genótipos'    'MEDFAV'     'MEDESF'     'B1'         'B1+B2'      'R2'         'Geral'     'Pouco Adap'    'Favoravel'    'Desfavoravel'
+    [        1]    [70.5131]    [29.3259]    [ 5.6946]    [ 3.3239]    [81.1893]    [     0]    [    0.7000]    [   0.3000]    [           0]
+    [        2]    [36.3307]    [39.4961]    [-0.6803]    [ 0.5618]    [35.6424]    [     0]    [    0.6880]    [        0]    [      0.1569]
+    [        3]    [58.0674]    [52.4949]    [ 1.6783]    [ 0.0927]    [64.7323]    [     0]    [    0.5487]    [        0]    [           0]
+    [        4]    [41.3379]    [66.2279]    [-1.9928]    [ 0.7158]    [60.6283]    [     0]    [    0.5024]    [        0]    [      0.4976]
+    [        5]    [50.6289]    [47.8957]    [ 3.1320]    [ 2.2524]    [47.8561]    [     0]    [    0.5125]    [   0.0871]    [           0]
+    [        6]    [73.5812]    [62.4708]    [ 4.2203]    [ 5.0356]    [83.1409]    [     0]    [    0.2144]    [   0.5707]    [           0]
+    [        7]    [61.9458]    [69.7692]    [ 0.2431]    [ 1.4673]    [67.9262]    [0.0121]    [    0.7104]    [   0.0121]    [      0.0318]
+    [        8]    [35.7808]    [57.5261]    [-3.2184]    [-2.7273]    [39.5028]    [     0]    [    0.6392]    [        0]    [      0.3121]
+    [        9]    [45.1585]    [17.8170]    [ 4.4765]    [-3.5677]    [66.4967]    [     0]    [    0.5921]    [        0]    [           0]
+    [       10]    [17.9226]    [41.1803]    [-4.0095]    [-1.6816]    [19.6339]    [     0]    [    0.6005]    [        0]    [      0.0771]
+    [       11]    [58.7331]    [65.7961]    [ 1.4562]    [ 5.5272]    [78.6853]    [     0]    [    0.3406]    [   0.6594]    [           0]
+
+A.G.: Adaptabilidade Geral; P.A.: Pouco Adaptado; A.A.F.: Adaptabilidade a ambientes Favoráveis;
+A.A.D.: Adaptabilidade a ambientes Desfavoráveis
+-----------------------------------------------------------------------------------------------------   

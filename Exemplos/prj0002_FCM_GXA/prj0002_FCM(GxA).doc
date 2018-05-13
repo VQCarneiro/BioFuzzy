@@ -1,0 +1,142 @@
+-------------------------------------------------------------------------
+------------------------------BIOFUZZY-----------------------------------
+-------------------------------------------------------------------------
+ 
+Desenvolvedor: Vinícius Quintão Carneiro (vqcarneiro@gmail.com)
+ 
+-----------------------------INFORMAÇÕES---------------------------------
+ 
+- - - - - - - - - - - - - - -Fuzzy C-Means- - - - - - - - - - - - - - - - 
+ 
+---------------------REFERÊNCIAS BIBLIOGRÁFICAS--------------------------
+ 
+1. Bezdec, J.C., Pattern Recognition with Fuzzy Objective Function Algorithms, Plenum Press, New York, 1981.
+ 
+----------------------------CONFIGURAÇÕES--------------------------------
+ 
+Número de classes de genótipos quanto a adaptabilidade e estabilidade: 4
+Classe 1: Ampla Adaptabilidade
+Classe 2: Adaptabilidade a Ambientes Favoráveis
+Classe 3: Adaptabilidade a Ambientes Desfavoráveis
+Classe 4: Pouco Adaptados
+Fator de Ponderação: 1.5
+Variação Mínima entre iterações: 0.00001
+Número de iterações: 1000
+Número de iterações realizadas: 14
+ 
+---------------------------------DADOS-----------------------------------
+ 
+Número Total de Observações: 20
+ 
+* Ambientes: 
+Ambiente 1
+Valor Máximo: 2260
+Valor Mínimo: 1087
+Média: 1647
+Variância: 78823.0526
+ 
+Ambiente 2
+Valor Máximo: 3110
+Valor Mínimo: 2176
+Média: 2578.4
+Variância: 119565.9368
+ 
+Ambiente 3
+Valor Máximo: 3230
+Valor Mínimo: 2111
+Média: 2519.7
+Variância: 77548.1158
+ 
+Ambiente 4
+Valor Máximo: 2421
+Valor Mínimo: 1456
+Média: 2004.35
+Variância: 54138.2395
+ 
+Ambiente 5
+Valor Máximo: 3504
+Valor Mínimo: 2535
+Média: 3097.6
+Variância: 79151.7263
+ 
+Ambiente 6
+Valor Máximo: 2705
+Valor Mínimo: 1364
+Média: 2144.85
+Variância: 109093.0816
+ 
+Ambiente 7
+Valor Máximo: 3307
+Valor Mínimo: 2203
+Média: 2767.6
+Variância: 64462.2526
+ 
+Ambiente 8
+Valor Máximo: 2479
+Valor Mínimo: 639
+Média: 1606.75
+Variância: 221872.1974
+ 
+Ambiente 9
+Valor Máximo: 2215
+Valor Mínimo: 530
+Média: 1436.4
+Variância: 131658.1474
+ 
+Ambiente 10
+Valor Máximo: 4405
+Valor Mínimo: 3097
+Média: 3664.7
+Variância: 100853.1684
+ 
+Ambiente 11
+Valor Máximo: 3050
+Valor Mínimo: 2065
+Média: 2599.15
+Variância: 80522.2395
+ 
+Ambiente 12
+Valor Máximo: 3285
+Valor Mínimo: 2181
+Média: 2601.9
+Variância: 68375.5684
+ 
+ 
+---------------------------TRILHA DE DADOS-------------------------------
+ 
+C:\BioFuzzy\Exemplos\prj0002_FCM_GXA\
+ 
+----------------------------ARQUIVOS GERADOS-----------------------------
+ 
+Resultado (Word): prj0002_FCM(GxA).doc
+ 
+-------------------------------------------------------------------------
+------------------------------RESULTADOS---------------------------------
+-------------------------------------------------------------------------
+ 
+Tabela 1. Recomendação dos genótipos avaliados.
+ 
+_____________________________________________________________________
+ 
+Ampla Adaptabilidade
+          3.00          5.00         14.00         15.00         19.00
+
+_____________________________________________________________________
+ 
+Adaptabilidade Favorável
+          1.00         20.00
+
+_____________________________________________________________________
+ 
+Adaptabilidade Desfavorável
+          4.00          7.00          8.00          9.00         11.00         16.00         17.00
+
+_____________________________________________________________________
+ 
+Pouco Adaptado
+          2.00          6.00         10.00         12.00         13.00         18.00
+
+_____________________________________________________________________
+ 
+ 
+ 

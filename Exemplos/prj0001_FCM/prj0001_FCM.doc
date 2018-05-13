@@ -1,0 +1,176 @@
+-------------------------------------------------------------------------
+-----------------------------BIOFUZZY------------------------------------
+-------------------------------------------------------------------------
+ 
+Desenvolvedor: Vinícius Quintão Carneiro (vqcarneiro@gmail.com)
+ 
+-----------------------------INFORMAÇÕES---------------------------------
+ 
+- - - - - - - - - - - - - - FUZZY C-MEANS - - - - - - - - - - - - - - -  
+ 
+---------------------REFERÊNCIAS BIBLIOGRÁFICAS--------------------------
+ 
+1. BEZDEC, J.C., Pattern Recognition with Fuzzy Objective Function Algorithms, Plenum Press, New York, 1981.
+ 
+2. CHIU, S., “Fuzzy Model Identification Based on Cluster Estimation,” Journal of Intelligent & Fuzzy Systems, Vol. 2, No. 3, Sept. 1994.
+ 
+------------------------ FASE 1: TREINAMENTO ----------------------------
+----------------------------CONFIGURAÇÕES--------------------------------
+ 
+Número de grupos a priori: 2
+Fator Expoente: 2
+Variação Mínima: 0.001
+Número de iterações totais: 1000
+Número de iterações realizadas: 9
+ 
+---------------------------------DADOS-----------------------------------
+ 
+Número Total de Observações: 20
+ 
+* ENTRADAS: 
+Entrada: 1: var1
+Valor Máximo: 2260
+Valor Mínimo: 1087
+Média: 1647
+Variância: 78823.0526
+ 
+Entrada: 2: var2
+Valor Máximo: 3110
+Valor Mínimo: 2176
+Média: 2578.4
+Variância: 119565.9368
+ 
+Entrada: 3: var3
+Valor Máximo: 3230
+Valor Mínimo: 2111
+Média: 2519.7
+Variância: 77548.1158
+ 
+Entrada: 4: var4
+Valor Máximo: 2421
+Valor Mínimo: 1456
+Média: 2004.35
+Variância: 54138.2395
+ 
+Entrada: 5: var5
+Valor Máximo: 3504
+Valor Mínimo: 2535
+Média: 3097.6
+Variância: 79151.7263
+ 
+Entrada: 6: var6
+Valor Máximo: 2705
+Valor Mínimo: 1364
+Média: 2144.85
+Variância: 109093.0816
+ 
+Entrada: 7: var7
+Valor Máximo: 3307
+Valor Mínimo: 2203
+Média: 2767.6
+Variância: 64462.2526
+ 
+Entrada: 8: var8
+Valor Máximo: 2479
+Valor Mínimo: 639
+Média: 1606.75
+Variância: 221872.1974
+ 
+Entrada: 9: var9
+Valor Máximo: 2215
+Valor Mínimo: 530
+Média: 1436.4
+Variância: 131658.1474
+ 
+Entrada: 10: var10
+Valor Máximo: 4405
+Valor Mínimo: 3097
+Média: 3664.7
+Variância: 100853.1684
+ 
+Entrada: 11: var11
+Valor Máximo: 3050
+Valor Mínimo: 2065
+Média: 2599.15
+Variância: 80522.2395
+ 
+Entrada: 12: var12
+Valor Máximo: 3285
+Valor Mínimo: 2181
+Média: 2601.9
+Variância: 68375.5684
+ 
+ 
+---------------------------TRILHA DE DADOS-------------------------------
+ 
+C:\BioFuzzy\Exemplos\prj0001_FCM\
+ 
+----------------------------ARQUIVOS GERADOS-----------------------------
+ 
+Resultado (Word): prj0001_FCM.doc
+Classificação (Excel): prj0001_FCM.xlsx
+ 
+-------------------------------------------------------------------------
+------------------------------RESULTADOS---------------------------------
+-------------------------------------------------------------------------
+ 
+Tabela 1. Classificação das observações avaliadas
+ 
+_____________________________________________________________________
+        Observações    Classes    Pertinências
+_____________________________________________________________________
+          1.00          1.00         74.77
+          2.00          2.00         73.38
+          3.00          1.00         75.60
+          4.00          1.00         50.54
+          5.00          1.00         58.81
+          6.00          1.00         61.74
+          7.00          2.00         76.34
+          8.00          2.00         63.32
+          9.00          2.00         78.50
+         10.00          2.00         83.55
+         11.00          2.00         85.27
+         12.00          2.00         84.69
+         13.00          2.00         80.34
+         14.00          1.00         77.20
+         15.00          1.00         74.76
+         16.00          2.00         52.38
+         17.00          2.00         79.01
+         18.00          2.00         72.54
+         19.00          1.00         73.86
+         20.00          1.00         60.97
+
+_____________________________________________________________________
+ 
+ 
+Tabela 2. Observações por Grupo
+_____________________________________________________________________
+ 
+Grupo: 1
+1   3   4   5   6  14  15  19  20
+ 
+_____________________________________________________________________
+ 
+Grupo: 2
+2   7   8   9  10  11  12  13  16  17  18
+ 
+_____________________________________________________________________
+ 
+ 
+Tabela 3. Eficiência
+_____________________________________________________________________
+ 
+        Iterações     Variação
+_____________________________________________________________________
+          1.00          9.64
+          2.00          7.75
+          3.00          7.61
+          4.00          7.52
+          5.00          7.46
+          6.00          7.43
+          7.00          7.42
+          8.00          7.42
+          9.00          7.42
+
+_____________________________________________________________________
+ 
