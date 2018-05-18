@@ -1,4 +1,4 @@
-BioFuzzy: Fuzzy Logic Applied in Plant Breeding
+# BioFuzzy: Fuzzy Logic Applied in Plant Breeding
 ---
 
 BioFuzzy é um software open-source e escrito em Java e Matlab. Atualmente esse está em versão alpha.
@@ -27,7 +27,7 @@ Nosso objetivo é divulgar e disponibilizar procedimentos fuzzy biométricos par
 O Software BioFuzzy não requer instalação, apenas que os requisitos de sistema sejam cumpridos. O usuário deve somente fazer o download desse repositório e deixa-lo em C:. Por exemplo (C:\BioFuzzy).
 
 ---
-# Licensa:
+## Licensa:
 
 Biofuzzy é um software open-source e gratuito. Apesar disso o autor requer menção deste repositório caso seja utilizado o software ou qualquer parte de códigos aqui disponibilizado.
 
