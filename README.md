@@ -1,2 +1,2 @@
-# BioFuzzy: Fuzzy Logic Applied in Plant Breeding
-=========================
+BioFuzzy: Fuzzy Logic Applied in Plant Breeding
+---
