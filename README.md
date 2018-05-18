@@ -31,7 +31,7 @@ O Software BioFuzzy não requer instalação, apenas que os requisitos de sistem
 ---
 ## Licensa:
 
-Biofuzzy é um software open-source e gratuito. Apesar disso o autor requer menção deste repositório caso seja utilizado o software completo ou qualquer parte de códigos aqui disponibilizado.
+Biofuzzy é um software open-source e gratuito. Apesar disso o autor requer menção deste repositório (https://github.com/VQCarneiro/BioFuzzy) caso seja utilizado o software completo ou qualquer parte de códigos aqui disponibilizado.
 
 ---
 ## Modulos
