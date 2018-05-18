@@ -8,8 +8,11 @@ Nosso objetivo é divulgar e disponibilizar procedimentos fuzzy biométricos par
 ---
 ## Autor
 
-Vinícius Quintão Carneiro - vqcarneiro@gmail.com
-Lattes:http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4409139P7 
+- Vinícius Quintão Carneiro - Doutorando pela Universidade Federal de Viçosa 
+- contato: vqcarneiro@gmail.com
+- Lattes:http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4409139P7 
+- website: www.fenomica.com.br
+- facebook: https://www.facebook.com/fenomica/
 
 ---
 ## Requisitos de Sistema
