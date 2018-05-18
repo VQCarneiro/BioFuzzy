@@ -32,6 +32,26 @@ O Software BioFuzzy não requer instalação, apenas que os requisitos de sistem
 Biofuzzy é um software open-source e gratuito. Apesar disso o autor requer menção deste repositório caso seja utilizado o software ou qualquer parte de códigos aqui disponibilizado.
 
 ---
+## Modulos
+
+O software BioFuzzy conta com procedimentos para ensino e pesquisa em lógica fuzzy. Para ensino vários exemplos são disponibilizados para melhor entendimento da teoria de conjuntos, regras e pertinências fuzzy. No contexto de pesquisa é possível desenvolver interativamente sistemas de controle fuzzy de acordo com os interesses dos usuário. Também é possível realizar análises de agrupamento não supervisionadas por meio do procedimento Fuzzy C-Means. Além destas possibilidades, estão disponíveis vários sistemas de controle fuzzy para auxiliar na etapa de recomendação de cultivares como:
+
+- Eberhart e Russell (1966)
+- Cruz et al. (1988)
+- Carneiro (1998)	
+- Multivariado – Carneiro (1998)
+- Híbrido – Eberhart e Russell (1966)/Carneiro (1998)
+- Clusterização Fuzzy
+
+---
+
 ## Entenda a Lógica Fuzzy
 
 A lógica Fuzzy proposta por Lofti Zadeh é uma dentre as diversas técnicas de inteligência artificial. Esta por meio de sistemas de controle fuzzy visam auxiliar o usuário em processos de tomadas de decisão. Esta funcionalidade torna estes sistemas de grande utilidade quando inseridos no contexto diário dos cientistas de dados. No contexto dos programas de melhoramento genético esta técnica permite transferir o conhecimento adquirido pelos programas de melhoramento, ao longo dos anos, aos sistemas computadorizados. Assim, estes conhecimentos podem ser armazenados e processados por meio de regras fuzzy de forma a servir de auxílio a novos programas de melhoramento para tomar decisões.
+
+---
+
+## Contribua!
+
+- Em caso de erros entre em contato pelo e-mail: vqcarneiro@gmail.com
+- Sugestões de novos procedimentos são sempre bem vindas.
