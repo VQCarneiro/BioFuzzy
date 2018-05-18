@@ -1,5 +1,6 @@
-![iconefenomica](https://user-images.githubusercontent.com/16979085/40247865-3acaa1ca-5aa4-11e8-8afa-92b9734f9167.png)
 ﻿# BioFuzzy: Fuzzy Logic Applied in Plant Breeding
+
+![biofuzzy_logo2](https://user-images.githubusercontent.com/16979085/40248109-30a81f1e-5aa5-11e8-8e22-cdcf42ec8c6e.png)
 ---
 
 BioFuzzy é um software open-source e escrito em Java e Matlab. Atualmente esse está em versão alpha.
