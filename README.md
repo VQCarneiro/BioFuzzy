@@ -5,6 +5,8 @@ BioFuzzy é um software open-source e escrito em Java e Matlab. Atualmente esse 
 
 Nosso objetivo é divulgar e disponibilizar procedimentos fuzzy biométricos para auxílio em diversas etapas dos programas de melhoramento genético. 
 
+Referências Bibliográficas: http://www.locus.ufv.br/bitstream/handle/123456789/6785/texto%20completo.pdf?sequence=1
+
 ---
 ## Autor
 
@@ -49,8 +51,7 @@ O software BioFuzzy conta com procedimentos para ensino e pesquisa em lógica fu
 
 A lógica Fuzzy proposta por Lofti Zadeh é uma dentre as diversas técnicas de inteligência artificial. Esta por meio de sistemas de controle fuzzy visam auxiliar o usuário em processos de tomadas de decisão. Esta funcionalidade torna estes sistemas de grande utilidade quando inseridos no contexto diário dos cientistas de dados. No contexto dos programas de melhoramento genético esta técnica permite transferir o conhecimento adquirido pelos programas de melhoramento, ao longo dos anos, aos sistemas computadorizados. Assim, estes conhecimentos podem ser armazenados e processados por meio de regras fuzzy de forma a servir de auxílio a novos programas de melhoramento para tomar decisões.
 
-# Referências
-http://www.locus.ufv.br/bitstream/handle/123456789/6785/texto%20completo.pdf?sequence=1
+- Maiores informações: http://www.locus.ufv.br/bitstream/handle/123456789/6785/texto%20completo.pdf?sequence=1
 
 ---
 
