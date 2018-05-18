@@ -1,3 +1,4 @@
+![iconefenomica](https://user-images.githubusercontent.com/16979085/40247865-3acaa1ca-5aa4-11e8-8afa-92b9734f9167.png)
 ﻿# BioFuzzy: Fuzzy Logic Applied in Plant Breeding
 ---
 
